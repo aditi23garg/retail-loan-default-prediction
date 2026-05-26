@@ -1,0 +1,22 @@
+# Large datasets (exceed GitHub's 100MB limit)
+loan.csv
+loan_default_predictions.csv
+
+# Large machine learning model artifacts
+models/
+
+# Visualization plots (if they should be ignored, keep empty. We want to check-in plots to showcase results!)
+# plots/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
