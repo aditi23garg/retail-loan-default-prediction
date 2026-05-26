@@ -2,11 +2,8 @@
 loan.csv
 loan_default_predictions.csv
 
-# Large machine learning model artifacts
-models/
-
-# Visualization plots (if they should be ignored, keep empty. We want to check-in plots to showcase results!)
-# plots/
+# Ignore large machine learning model pickle (69MB, too heavy for fast Git push)
+models/random_forest.pkl
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
